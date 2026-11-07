@@ -1,9 +1,0 @@
-$kind: http-request
-url: http://localhost:4040/books?author=tuuru
-method: GET
-queryParams:
-  author: tuuru
-body:
-  type: json
-  content: ""
-order: 6000
