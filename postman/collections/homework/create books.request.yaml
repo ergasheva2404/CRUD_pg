@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:4040/books
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Saodat asri qissalari\",\r
+
+    \    \"author\": \"Ahmad Lutfiy Qozonchi\",\r
+
+    \    \"year\": 1990\r
+
+    }"
+order: 1000
